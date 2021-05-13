@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/leandroestrella/dadaplaygnd/
+    - /bin/cp -R * $DEPLOYPATH
+    
